@@ -23,7 +23,7 @@ PAGE_REGISTRY = {
         "file": f"{PAGES_DIR}/3_Analytics.py",
         "title": "Analytics",
         "icon": None,
-        "roles": ["Loan Officer", "Risk Analyst", "Compliance Officer", "Administrator"],
+        "roles": ["Administrator"],
     },
     "4_AB_Testing": {
         "file": f"{PAGES_DIR}/4_AB_Testing.py",

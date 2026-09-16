@@ -32,6 +32,12 @@ API_URL = "http://127.0.0.1:8000/api"
 st.sidebar.markdown("### **MIFOS X** AI Platform")
 
 if "token" not in st.session_state:
+    def _login_stub():
+        """Hidden placeholder page that resets the navigation on the login screen."""
+        pass
+
+    st.navigation([st.Page(_login_stub)]).run()
+
     st.markdown("## 🔐 Login to MIFOS X")
 
     tab1, tab2 = st.tabs(["Login", "Register"])
