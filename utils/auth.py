@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 ROLES = ["Customer", "Loan Officer", "Risk Analyst", "Compliance Officer", "Administrator"]
-API_URL = "http://localhost:8000/api"
+API_URL = "http://127.0.0.1:8000/api"
 
 PAGES_DIR = "views"
 
